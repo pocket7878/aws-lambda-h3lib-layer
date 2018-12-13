@@ -1,0 +1,10 @@
+service: h3lib-lambda-layer
+
+provider:
+  name: aws
+  region: ap-northeast-1
+
+layers:
+  h3lib:
+    buildScript: ./build.sh
+    path: layer
