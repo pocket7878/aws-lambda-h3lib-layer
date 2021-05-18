@@ -6,5 +6,4 @@ provider:
 
 layers:
   h3lib:
-    buildScript: ./build.sh
     path: layer

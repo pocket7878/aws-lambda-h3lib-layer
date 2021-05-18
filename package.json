@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "build": "./build.sh",
+    "deploy": "sls deploy"
+  },
+  "dependencies": {
+    "serverless": "^2.41.2"
+  }
+}

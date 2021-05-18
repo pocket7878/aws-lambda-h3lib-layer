@@ -2,10 +2,28 @@
 
 This is the source project for an AWS Lambda Layer that contains uber's h3lib.
 
-## Deploy 
+## Prerequisites
+
+- yarn
+- docker
+
+## Setup
 
 ```
-sls deploy
+yarn install
+```
+
+
+## Build
+
+```
+yarn build
+```
+
+## Deploy
+
+```
+yarn deploy
 ```
 
 ## Usage 

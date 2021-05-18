@@ -12,3 +12,4 @@ docker cp \
     $CONTAINER:/h3-3.2.0/lib/libh3.so.1 \
     layer/lib/.
 docker rm $CONTAINER
+
